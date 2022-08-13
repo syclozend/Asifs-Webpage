@@ -1,0 +1,114 @@
+        #container {
+            position: fixed;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+        #top {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 10px 50px 10px 50px;
+
+        }
+        #right #left {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+        }
+        
+        a {
+            text-decoration: none;
+            color:black;
+        }
+        .options {
+            padding: 0px 10px 0px 10px;
+        }
+        #logo {
+            font-size: 50px;
+        }
+        #main {
+            display: flex;
+            flex-direction: row;
+            padding-left: 40px;
+            padding-top: 20px;
+            padding-right: 50%;
+            justify-content: space-between;
+            height: 60px;
+        }
+        #others {
+            padding-top: 20px;
+            padding-right: 0px;
+            margin-left: 10px;
+        }
+        #bar {
+            margin:30px 0px 0px 0px ;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 100px;
+            width: 100%;
+            align-items: center;
+        }
+
+        .yellow{
+            background-color: #FFCC00;
+        
+        }
+        #search {
+
+            height: 50%;
+            width: 50%;
+            display: flex;
+            justify-content: ;
+        }
+        .white {
+            background-color: white;
+            height: 100%;
+            width: 100%;
+        }
+        .navy {
+            background-color: rgb(0, 0, 46);
+            height: 100%;
+            width: 20%;
+        }
+        .gray {
+            background-color: rgb(235, 235, 235);
+        }
+        #content {
+            height: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+        #boxes {
+            padding-top:30px;
+            height: 30%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .box {
+            height: 100%;
+            width: 25%;
+            background: #FFCC00;
+        }
+        #view {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            width: 150px;
+        }
+        #text {
+            width: 300px;
+            text-align: center;
+        }
